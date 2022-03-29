@@ -1,0 +1,33 @@
+#cuerpo{
+    background-image: $secondaryColor;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+#selector1{
+    
+    h1,h2,h3{
+        font-family:$fontMain;
+        font-size: $textLg;
+        margin: 10px 0;
+    }
+    p{
+        font-family: $fontSecondary;
+        color:rgb(36, 34, 35)
+        font-size: $textMd;
+        line-height:1.4em;
+        
+    }
+    p:first-letter{
+        color: rgb(78, 12, 12);
+        font-size: $textMd;
+        font-weight: 600;
+        margin-right: 2px;
+    
+    }
+    
+
+}
